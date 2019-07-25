@@ -173,6 +173,7 @@ class HomeScreen extends Component {
                               caption={card.caption}
                               logo={card.logo.url}
                               subtitle={card.subtitle}
+                              content={card.content}
                             />
                           </TouchableOpacity>
                         ))}
