@@ -7,7 +7,7 @@ import {
   Linking,
   ScrollView
 } from "react-native";
-import { Icon } from "expo";
+import { Ionicons } from "@expo/vector-icons";
 import Markdown from "react-native-showdown";
 
 class SectionScreen extends React.Component {
@@ -46,7 +46,7 @@ class SectionScreen extends React.Component {
             style={{ position: "absolute", top: 20, right: 20, zIndex: 50 }}
           >
             <CloseView>
-              <Icon.Ionicons
+              <Ionicons
                 name="ios-close"
                 size={36}
                 color="#4775f2"

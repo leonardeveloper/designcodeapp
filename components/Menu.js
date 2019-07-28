@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Animated, TouchableOpacity, Dimensions } from "react-native";
-import { Icon } from "expo";
+import { Ionicons } from "@expo/vector-icons";
 import MenuItem from "./MenuItem";
 import { connect } from "react-redux";
 
@@ -70,7 +70,7 @@ class Menu extends React.Component {
           }}
         >
           <CloseView>
-            <Icon.Ionicons name="ios-close" size={44} color="#546bfb" />
+            <Ionicons name="ios-close" size={44} color="#546bfb" />
           </CloseView>
         </TouchableOpacity>
         <Content>

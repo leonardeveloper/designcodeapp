@@ -8,6 +8,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo/vector-icons": "^10.0.0",
     "apollo-boost": "^0.4.3",
     "expo": "^33.0.0",
     "graphql": "^14.4.2",
